@@ -59,43 +59,39 @@ Redialog endeavors to deliver state-of-the-art M2M interface technology that str
 
 The roadmap illustrates a progressive build-up from concept to market release, emphasizing ongoing refinement and a strategic approach to creating a robust M2M text-to-software platform that responds to user needs and fosters a collaborative community around it.
 
+![Redialog Project Roadmap 2024](https://github.com/redialog/identity/assets/5669657/03f3b9df-8963-4558-8cce-caa9d7c31512)
 
 
 ```mermaid
 gantt
-    dateFormat  YYYY-MM-Q
+    dateFormat  YYYY-MM-DD
     title       Redialog Project Roadmap 2024
-    
+
     section Conceptualization
-    Market Research          :active, a1, 2024-01-Q1, 2024-01-Q2
-    Feasibility Study        :after a1, a2, 2024-01-Q2, 2024-02-Q1
+    Market Research          :a1, 2024-01-01, 2024-02-28
+    Feasibility Study        :a2, after a1, 15d
     
     section Design & Development
-    Framework Design         :active, a3, 2024-02-Q1, 2024-03-Q2
-    Initial Prototype        :active, a4, after a3, 2024-03-Q3
+    Framework Design         :a3, 2024-03-01, 2024-04-30
+    Initial Prototype        :a4, after a3, 45d
     
     section Alpha Phase
-    Internal Alpha Testing   :a5, 2024-04-Q1, 2024-04-Q2
-    Feedback & Iteration     :a6, after a5, 2024-04-Q3, 2024-04-Q4
+    Internal Alpha Testing   :a5, 2024-06-01, 2024-07-15
+    Feedback & Iteration     :a6, after a5, 30d
     
     section Beta Phase
-    Public Beta Release      :a7, 2024-05-Q1, 2024-05-Q2
-    Ecosystem Partnerships   :a8, after a7, 2024-05-Q3
+    Public Beta Release      :a7, 2024-08-01, 2024-09-30
+    Ecosystem Partnerships   :a8, after a7, 30d
     
     section Feedback & Enhancement
-    Beta Feedback Analysis   :a9, 2024-06-Q1, 2024-06-Q2
-    Feature Enhancements     :a10, after a9, 2024-06-Q3, 2024-06-Q4
+    Beta Feedback Analysis   :a9, 2024-10-01, 2024-10-31
+    Feature Enhancements     :a10, after a9, 30d
     
     section Launch Preparation
-    Security & Interop.      :a11, 2024-07-Q1, 2024-07-Q2
-    Marketing & Pricing      :a12, after a11, 2024-07-Q3, 2024-07-Q4
+    Security & Interop.      :a11, 2024-11-01, 2024-11-30
+    Marketing & Pricing      :a12, after a11, 30d
 
     section Official Release
-    Product Launch           :a13, 2024-08-Q1, 2024-08-Q2
-    Support & Education      :a14, after a13, 2024-08-Q3, 2024-08-Q4
-    
-    section Post-Launch
-    Performance Monitoring   :a15, 2024-09-Q1, 2024-09-Q2
-    User Adoption Review     :a16, 2024-09-Q3, 2024-09-Q4
-    Roadmap Update           :a17, 2024-10-Q1, 2024-10-Q2
+    Product Launch           :a13, 2024-12-01, 2024-12-15
+    Support & Education      :a14, after a13, 30d
 ```
